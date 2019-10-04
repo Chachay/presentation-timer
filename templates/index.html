@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block head %}
+{% endblock %}
+
+{% block page_content %}{% raw %}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p class="digits">{{hours}}:{{minutes}}:{{seconds}}</p>
+      <p class="digits">{{tdate}}</p>
+      <p class="digits">{{now}}</p>
+    </div>
+  </div>
+</div>
+{% endraw %}{% endblock %}

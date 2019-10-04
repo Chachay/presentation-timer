@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(50, 50, 50);
+}
+.digits{
+  color: #8fbc8f;
+  font-size: 10rem; 
+  font-family:Arial, Helvetica, sans-serif; 
+}
+.clock{
+  color: #8fbc8f;
+  font-size: 8rem; 
+  font-family:Arial, Helvetica, sans-serif; 
+}
